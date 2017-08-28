@@ -27,7 +27,7 @@ pokemonArray['1'] // ok so what
 ## differences
 
 |               | Arrays           | Objects  |
-| ------------- |:----------------:| --------:|
+| ------------- |:----------------:| :-------:|
 | Syntax        | []               | {}       |
 | Order         | Ordered by increasing indexes | Unordered uses properties |
 | Methods | Convenience array methods, such as push, pop, shift, and unshift | None really |
