@@ -27,3 +27,20 @@ pokemonObject.grass = 'bulbasaur';
 4) Since objects don't have an order, access `squirtle` using bracket notation passing in a string
 5) Access `charmander` using bracket notation without a string
 6) Access `bulbasaur` using dot notation
+
+## loops
+You can loop through arrays using a for or while loop.
+
+```js
+const pokemonArray = {
+  lightning: 'pikachu',
+  water: 'squirtle',
+  grass: 'bubasaur',
+  fire: 'charmander',
+};
+
+// for loop
+for (let key in pokemonArray) {
+  console.log(pokemonArray[key]);
+}
+```

@@ -31,6 +31,8 @@ pokemonArray['1'] // ok so what
 | Syntax        | []               | {}       |
 | Order         | Ordered by increasing indexes | Unordered uses properties |
 | Methods | Convenience array methods, such as push, pop, shift, and unshift | None really |
+| Loops | for variable, while | for in |
+| Usage | Simple structure | Complex structures |
 
 ## arrays
 
