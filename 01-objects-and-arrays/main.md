@@ -1,13 +1,14 @@
-# OBJECTS AND arrays
+# OBJECTS AND ARRAYS
 
-## Know
+## what
+
 - Both Arrays and Objects are Objects
 
 ```js
 const pokemonArray = ['pikachu', 'eevee'];
 const pokemonObject = {
-	0: 'pikachu',
-	1: 'eevee',
+  0: 'pikachu',
+  1: 'eevee',
 };
 ```
 
