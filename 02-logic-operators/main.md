@@ -73,7 +73,8 @@ const pokemonData = [
   }
 ];
 
-// given an array of Pokemon objects called `pokemonData` loop through and log only bulbasaur object's key value pairs.
+// given an array of Pokemon objects called `pokemonData` loop through
+// and log only bulbasaur object's key value pairs.
 
 // example input:
 // logPokemonData(pokemonData, 'bulbasaur');
@@ -97,3 +98,5 @@ let logPokemonData = (pokemonData, name) => {
 // your function call
 logPokemonData(pokemonData, 'bulbasaur');
 ```
+
+Once you get it working pass in some random stuff and observe what happens when you pass in a name that doesn't exist. Is there a way to fix it?
