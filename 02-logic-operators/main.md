@@ -102,3 +102,4 @@ logPokemonData(pokemonData, 'bulbasaur');
 ```
 
 - Once you get it working pass in some random stuff and observe what happens when you pass in a name that doesn't exist. Is there a way to fix it? What about passing in `BUBLASAUR`, `Bulbasar`, or any variations.
+- If you can't get it to work, don't worry you can come back to it after the [functions](https://github.com/jasonly/JS-what-do-I-do-now/blob/master/03-functions/main.md) section
