@@ -4,5 +4,6 @@ JavaScript will evaluate things using operators. Things will get evaluated to ei
 
 |               | Symbol           |
 | ------------- |:----------------:|
-| and        | &&               |
-| or         | || |
+| and           | &&               |
+| or            | &#124;&#124;     |
+| flip bool     | !                |
