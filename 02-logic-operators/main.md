@@ -99,4 +99,4 @@ let logPokemonData = (pokemonData, name) => {
 logPokemonData(pokemonData, 'bulbasaur');
 ```
 
-Once you get it working pass in some random stuff and observe what happens when you pass in a name that doesn't exist. Is there a way to fix it?
+- Once you get it working pass in some random stuff and observe what happens when you pass in a name that doesn't exist. Is there a way to fix it? What about passing in `BUBLASAUR`, `Bulbasar`, or any variations.
