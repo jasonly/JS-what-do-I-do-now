@@ -7,10 +7,12 @@ JavaScript will evaluate things using operators. Things will get evaluated to ei
 | and           | &&               |
 | or            | &#124;&#124;     |
 | not           | !                |
-| equality | == |
-| identity | === |
+| equality      | ==               |
+| identity      | ===              |
 
 When writing functions it's often useful to see if certain conditions evaluate to either true or false. Usually this is handled with an `if` statement.
+
+JavaScript code can generally be though of executed from top to bottom and left to right.
 
 ```js
 if (pokemonType === 'lightning' || pokemonType === 'water') {
