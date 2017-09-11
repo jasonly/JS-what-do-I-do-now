@@ -43,10 +43,24 @@ const pokemonFunc = (ref) => {
 pokemonFunc('oh hey'); // 'oh hey'
 ```
 
-There are many other ways to write functions, but really these are the most important.
+There are many intricacies to writing functions and such, it's a lot to cover but these are it's most pure forms.
 
 ## practice
 
-- create a function called `l`
+- create a function that adds two numbers together
 
-## recursion
+```js
+function add(n1, n2) {
+
+}
+
+add(2, 2) //4
+```
+
+- create a function that subtracts two numbers
+- create a function that divides two numbers
+- create a function that takes the power of two numbers
+
+## object oriented programming and structure
+
+So far we've only been tying primitive values to objects, but you can actually store functions too! JavaScript also supports prototyping and other inheritance patterns. We'll look at those [next](https://github.com/jasonly/JS-what-do-I-do-now/blob/master/03-functions/oop.md).
