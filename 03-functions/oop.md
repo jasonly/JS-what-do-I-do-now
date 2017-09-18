@@ -1,4 +1,4 @@
-# Object Oriented
+# OBJECT ORIENTED
 
 Objects can have more than primitive values attached to them.
 
@@ -14,8 +14,6 @@ calculator.add = function(n1, n2){
 
 
 ## new
-
-
 
 When a function is called with the new keyword, returns a new object with the `this` value pointing to it. These are also known as constructors.
 
