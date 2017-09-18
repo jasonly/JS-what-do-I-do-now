@@ -2,8 +2,9 @@
 
 I don't know, whatever, think of functional programming as this
 
-- No side effects
+## no side effects
   - Side effects are things that happen outside of your function call
+
   ```js
   // don't do this
   const bands = {
@@ -77,7 +78,7 @@ I like to think of it as a way of generalizing the code that you write in a way 
 
 What else.
 
-- Consistency
+## consistency
   - The code you write should consistently return the same output for the same input. In a lot of ways if you code doesn't rely on any outside forces or changing state it should always return the same thing.
 
   ```js
