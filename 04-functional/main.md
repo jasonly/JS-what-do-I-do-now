@@ -61,6 +61,7 @@ I don't know, whatever, think of functional programming as this
 
   // I guess this feels a bit contrived but imagine a situation where you might accidentally change something but didn't intend to and have to track it down.
   ```
+
   - Here's a short list of array methods that are mutating, read more about it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Mutator_methods).
     - copyWithin
     - fill
@@ -71,8 +72,6 @@ I don't know, whatever, think of functional programming as this
     - sort
     - splice
     - unshift
-
-
 
 I like to think of it as a way of generalizing the code that you write in a way so that you can reuse it. Think of it as building a toolset for tools. Functional programming lends itself to readability, consistency, and reuseable code.
 
@@ -89,6 +88,10 @@ What else.
 
   - This consistency allows you unit test your code with 100% reliability, I mean it would be pretty weird if 1 + 1 didn't equal 2, maybe it'll happen one day.
 
-- This is nice and all but it can be pretty impractical sometimes if you adhere to this 100%, I personally think if you scope the idea of functional programming to the concept of consistency and no side effects, you'll be fine.
+This is nice and all but it can be pretty impractical sometimes if you adhere to this 100%, I personally think if you scope the concept of functional programming to consistency and no side effects, you'll be fine. I think.
 
 ## practice
+  - (each) Write a function to iterate through an array or object
+  - (map) Using `each` write a function that will return an array of things
+  - (filter) Using `map` write a function that will return an array of items that pass a test
+  - (underworldFilter) Using `map` write a function that will return an array of items that don't pass a test
