@@ -1,5 +1,8 @@
 # Place character between X number of characters in a string
 
+input: 'String', 2
+output: 'St?ri?ng'
+
 - Simple implementation
 
 ```js
@@ -8,7 +11,7 @@ let string = 'String';
 function placeCharacters(str, amount) {
     let newString = '';
     let ourAmount = 0;
-    
+
     for(let i = 0; i < str.length; i++) {
         if(ourAmount < amount) {
             newString += str[i];
@@ -19,7 +22,7 @@ function placeCharacters(str, amount) {
             newString += str[i];
         }
     }
-    
+
     return newString;
 }
 

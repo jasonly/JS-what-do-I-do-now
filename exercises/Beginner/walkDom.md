@@ -1,6 +1,7 @@
 # Create a function that walks through the dom.
 
-- Implementation
+input: dom node, callback
+output: whatever you do with the callback, maybe find the first div?
 
 ```js
 function walkTheDOM(node, func) {
@@ -13,12 +14,11 @@ function walkTheDOM(node, func) {
 }
 
 walkTheDOM(document.body, (node) => {
-    if (node.nodeType === 3) { 
+    if (node.nodeType === 3) {
         let text = node.data.trim();
-        if (text.length > 0) { 
-            
+        if (text.length > 0) {
+
         }
     }
 });
-
 ```
